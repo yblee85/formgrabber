@@ -6,11 +6,11 @@ it read elements from html and creates json object
 example.
 
 -- html --
-<div id="divHere">
-<input type="text" var="txtName"></input>
-</div>
+"<div id=\"divHere\">
+<input type=\"text\" var=\"txtName\"></input>
+</div>"
 
--- js --
-var data = varFromGrabber($("#divHere"));
+-- js --<br>
+var data = varFromGrabber($("#divHere"));<br>
 // data = {txtName : "..."}
 
